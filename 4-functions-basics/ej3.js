@@ -10,9 +10,18 @@
 
 let caracterInicial = (texto) => {
     // Aquí tu código.  Desde aquí:
-    
+    if(typeof texto === "string"){
+        if (texto === ""){
+            return "Debo ser ejecutada con un string no vacio";
+        }else{
+            return texto.charAt(0);
+        }
+    }else{
+            return "Debo ser ejecutada con un string"; 
+        }
+    }
     // Hasta aquí.
-}
+
 
 
 let test = require('../test.js');

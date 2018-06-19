@@ -17,7 +17,10 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
-
+let total=0;
+arr.forEach(caquita => {
+    total+=caquita;
+});
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);

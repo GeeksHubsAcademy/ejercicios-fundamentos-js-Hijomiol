@@ -33,3 +33,5 @@ let gente = [{
     },
 ]
 
+let letras4Primeras = gente.filter(persona => persona.nombre.length===4);
+console.log(letras4Primeras); 

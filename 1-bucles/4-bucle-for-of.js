@@ -33,3 +33,15 @@ let gente = [{
         edad: 10
     },
 ]
+let genteMayoresDe20 = gente.filter(gente => gente.edad > 25);
+console.log(genteMayoresDe20);
+
+// let genteMayoresDe20 = gente.edad > 25;
+// gente.forEach(gente() => (genteMayoresDe20));
+// console.log(genteMayoresDe20);
+
+// function genteMayoresDe20(gente) {
+//     gente.forEach((gente => gente.edad >25) {
+        
+//     });
+// }

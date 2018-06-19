@@ -5,7 +5,21 @@
 
 
 // Aquí tu código
+var ordenador = new Object();
+// ordenador.marca = "La pava";
+// ordenador.tipo = "portátil";
+// ordenador.perifericos = [,"touchPad",];
+ordenador = {
+    marca:"La pava",
+    tipo:"portátil",
+    perifericos: [,"touchPad"],
+    almacenamiento : {
+        discos : [,"HDD"],
+        maestro : 0
+    }
+}
 
+console.log(ordenador);
 
 
 // Hasta aquí
@@ -22,13 +36,13 @@ if (ordenador.marca === 'La pava') {
 } else {
     console.log('suspendes');
 }
-// TEST 3
+// // TEST 3
 if (ordenador.tipo === 'portátil') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-// TEST 4
+// // TEST 4
 if (ordenador.perifericos[1] === 'touchPad') {
     console.log('apruebas');
 } else {

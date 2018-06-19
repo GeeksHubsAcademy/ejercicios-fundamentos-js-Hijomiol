@@ -5,7 +5,18 @@
 
 
 // Aquí tu código
-
+var obj = new Object();
+    
+    obj = {
+        a :{
+            
+            b : true,
+            c : ["",7],
+        } ,
+        d : 6,
+        f: "yesu"
+        
+    }
 // Hasta aquí
 
 // TEST 1
@@ -40,7 +51,6 @@ if ( obj.d > 4 && obj.d < 8) {
 } else {
     console.log('suspendes');
 }
-
 // TEST 6
 if (typeof obj.f === 'string') {
     console.log('apruebas');

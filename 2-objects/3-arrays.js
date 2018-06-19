@@ -2,11 +2,16 @@
 //  3
 //  Crea un array en la variable llamada arr
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
-
+    
 
 // Aquí tu código
-
-
+var arr = new Array();
+    arr = [
+        {name : "pepito", age:25},
+        {name : "pepito", age:37},
+        {name : "J", age:30}
+    ];
+console.log(arr);
 // Hasta aquí
 
 // TEST 1

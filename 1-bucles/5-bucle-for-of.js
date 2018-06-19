@@ -33,3 +33,5 @@ let gente = [{
         edad: 10
     },
 ]
+let empiezanPorJ = gente.filter(gente => gente.nombre[0].toUpperCase() === 'J');
+console.log(empiezanPorJ);
